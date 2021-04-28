@@ -1,0 +1,7 @@
+@import url('book-now.css');
+
+.banner{background:url('../images/page6/bangkok-image.jpg');
+		background-repeat:no-repeat;
+		background-position:center;
+		background-size:cover;
+		padding:250px 0;}

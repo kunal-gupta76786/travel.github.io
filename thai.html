@@ -1,0 +1,882 @@
+<!Doctype html>
+<html lang="en">
+<head>
+
+<title>Travels</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link href="css/jquery.fancybox.min.css" rel="stylesheet" />
+<link href="css/slick-theme.css" rel="stylesheet"/>
+<link href="css/slick.css" rel="stylesheet"/>
+<link href="css/all.min.css" rel="stylesheet" />
+<link href="css/thai.css" rel="stylesheet" />
+
+</head>
+<body>
+
+<div class="loader">
+	<div></div>
+</div>
+
+<div class="black"></div>
+
+<header>
+<nav>
+
+<div class="header-left">
+<ul>
+<li><i class="fa fa-times" ></i></li>
+<li><a href="index.html" >Home</a></li>
+<li><a href="#" >Destination <i class="fas fa-chevron-down"></i></a>
+
+<ul class="sub-menu">
+<li><a href="viet.html" >Viet Nam</a></li>
+<li><a href="thai.html" >Thialand</a></li>
+<li><a href="nyork.html" >California</a></li>
+<li><a href="nyork.html" >New York</a></li>
+</ul>
+
+</li>
+
+<li><a href="#" >Listing <i class="fas fa-chevron-down"></i></a>
+
+<ul class="sub-menu">
+<li><a href="index2.html" >Grid Right Sidebar</a></li>
+</ul>
+
+</li>
+<li><a href="#" >Pages <i class="fas fa-chevron-down"></i></a>
+
+<ul class="sub-menu">
+<li><a href="about.html" >About</a></li>
+<li><a href="index3.html" >Blog</a></li>
+<li><a href="index4.html" >FAQs</a></li>
+</ul>
+
+</li>
+
+</li>
+<li><a href="index5.html" >Contact Us</a></li>
+</ul>
+</div>
+
+<div class="header-left-bar">
+<ul>
+<li><a href="#"><i class="fa fa-bars" ></i></a></li>
+</ul>
+</div>
+
+<div class="header-center">
+<a href="#">Travel</a>
+</div>
+
+<div class="header-right">
+<ul>
+<li><a href="mailto:kg6451417@gmail.com" >travel@12300.com</a></li>	
+<li><a href="tel:12 43346734" >+ 12 43346734</a></li>
+<li><a href="#" class="login" >Login</a></li>	
+<li><a href="#" class="signup">Sign up</a></li>	
+</ul>
+</div>
+
+<div class="header-right-user">
+<ul>
+<li><a href="#"><i class="fa fa-user" ></i></a></li>
+</ul>
+</div>
+
+</nav>
+</header>
+
+<div class="dialog-box" id="login" >
+
+<div>
+
+<div class="title">
+<h2>Log In</h2>
+<p>Contrary to popular belief, Lorem Ipsum is not simply random text</p>
+<i class="fas fa-times"></i>
+</div>
+
+<form>
+
+<div class="form-group">
+<input type="text" placeholder="Email or Username" class="form-control" />
+</div>
+
+<div class="form-group">
+<input type="password" placeholder="Password" class="form-control" />
+</div>
+
+
+<div class="check-item">
+
+<div>
+<input type="checkbox" id="remem" class="remember"/>
+<label for="remem">Remember me</label>
+</div>
+
+<a href="#" class="lose-pass" >Forgot Password?</a>
+</div>
+
+<div class="form-group">
+<input type="submit" class="form-submit" value="Log in" />
+</div>
+
+<div class="message">
+<span>New here?</span>
+<a href="#" >Create an Account</a>
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<div class="dialog-box" id="signup">
+
+<div>
+
+<div class="title">
+<h2>Sing up</h2>
+<i class="fas fa-times"></i>
+</div>
+
+<form>
+
+<div class="form-group">
+<input type="text" placeholder="Username" class="form-control" />
+</div>
+
+<div class="form-group">
+<input type="text" placeholder="Fullname" class="form-control" />
+</div>
+
+<div class="form-group">
+<input type="email" placeholder="Email" class="form-control" />
+</div>
+
+<div class="form-group">
+<input type="password" placeholder="Password" class="form-control" />
+</div>
+
+<div class="form-group term">
+<input type="checkbox" id="check" />
+<label for="check" > I have read and accept the 
+<a href="#" class="f-link">Terms and Privacy Policy</a></label>
+</div>
+
+<div class="form-group">
+<input type="submit" class="form-submit" value="Sign up" />
+</div>
+
+<div class="form-group advance">
+<p>or continue with</p>
+
+<div class="social">
+
+<a href="#" class="field-icon" ><i class="fab fa-facebook-f"></i> Facebook</a>
+<a href="#" class="field-icon" ><i class="fab fa-google-plus-g"></i> Goggle</a>
+<a href="#" class="field-icon" ><i class="fab fa-twitter"></i> Twitter</a>
+
+</div>
+</div>
+
+<div class="open-login">
+<p>Already have an account? <a href="#" class="f-link" >Log in</a></p>
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+
+
+<div class="banner">
+
+<div class="container">
+
+<div class="banner-content">
+
+<h1>Bangkok</h1>
+<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+</div>
+
+</div>
+</div>
+
+<div class="search-menu">
+
+<div class="container">
+
+<form>
+
+<div class="booking-item">
+
+<div class="dropdown">
+<div class="dropdown-btn"><div class="left-icon">
+<i class="fas fa-calendar-day"></i></div>
+<div class="right-icon">
+<label for="time">From - To</label>
+<input type="date" class="check-reader" id="date" value="18/03/2021 11:13 am -19/03/2021" name="start" />
+
+</div>
+</div>
+</div>
+
+
+<div class="dropdown">
+<div class="dropdown-btn"><div class="left-icon">
+<i class="fas fa-users"></i></div>
+<div class="right-icon">
+<label for="member">Guests</label>
+<input type="text" id="member" placeholder="How many peoples?" />
+</div>
+</div>
+
+<div class="dropdown-menu">
+<ul>
+<li class="select-menu"><label>Adults</label>
+<input type="number" value="1" class="input-number" name="adult-number" min="1" max="20" />
+</li>
+
+<li class="select-menu"><label>Children</label>
+<input type="number" value="0" class="input-number" name="adult-number" min="1" max="20" />
+</li>
+</ul>
+</div>
+
+</div>
+
+
+<div class="boking-price">
+<span class="price">€90,00</span>
+</div>
+
+<div class="bookign-btn">
+
+<a href="#" class="btn" >Book Now</a>
+
+</div>
+
+</div>
+
+</form>
+
+</div>
+
+</div>
+
+<section class="overview"> 
+<div class="container"> 
+
+<div class="overview-description">
+
+<div class="overview-title">
+<h1>Overview</h1>
+<p>The advantage of its Latin origin and the relative meaninglessness of Lorum Ipsum is that the text does not attract attention to itself or distract the viewer's attention from the layout. One disadvantage of Lorum Ipsum is that in Latin certain letters appear more frequently than others - which creates a distinct visual impression. Moreover, in Latin only words at the beginning of sentences are capitalized; this means that Lorem Ipsum cannot accurately represent, for example, German, in which all nouns are capitalized. Thus, Lorem Ipsum has only limited suitability as a visual filler for German texts.</p>
+</div>
+
+<div class="features">
+<div class="feature-item">
+<i class="fas fa-calendar-day"></i>
+<div class="feature-info">
+<h4>Duration</h4>
+<p>A week</p>
+</div>
+</div>
+
+<div class="feature-item">
+<i class="fas fa-users"></i>
+<div class="feature-info">
+<h4>Group size</h4>
+<p>6 people</p>
+</div>
+</div>
+
+<div class="feature-item">
+<i class="fas fa-language"></i>
+<div class="feature-info">
+<h4>Language</h4>
+<p>English</p>
+</div>
+</div>
+
+<div class="feature-item">
+<i class="fas fa-ship"></i>
+<div class="feature-info">
+<h4>Tour type</h4>
+<p>Daily tour</p>
+</div>
+</div>
+
+</div>
+
+<div class="include-info">
+
+<h1 class="include-title">Include/Exclude</h1>
+
+<ul class="include-list">
+<li><span class="info-icon">&#10003;</span> 30 Meals (Vegetarian Options)</li>
+<li><span class="info-icon">&#10003;</span> All Trips and Excursions</li>
+<li><span class="info-icon">&#10003;</span> All Accommodation</li>
+<li><span class="info-icon">&#10003;</span> Airport Pick-Up & Drop-Off</li>
+<li><span class="info-icon">&#10003;</span> All In-Country Transport</li>
+<li><span class="info-icon">&#10003;</span> No Hidden Charges</li>
+<li><span class="info-icon">&#10003;</span> Visa (Required)</li>
+<li><span class="info-icon">&#10003;</span> Travel Insurance</li>
+<li><span class="info-icon">&#10003;</span> Private Facebook Group</li>
+<li><span class="info-icon">&#10003;</span> International Flights</li>
+<li><span class="info-icon2">&#10005;</span> Drink</li>
+<li><span class="info-icon2">&#10005;</span> Tickets</li>
+<li><span class="info-icon2">&#10005;</span> Insurance</li>
+<li><span class="info-icon2">&#10005;</span> Additional Services</li>
+</ul>
+
+
+</div>
+
+</div>
+
+<div class="overview-image">
+
+<div>
+<img src="images/page6/b-group.jpg" />
+</div>
+
+<div class="group-gallery">
+<a data-fancybox="gallery"  href="images/page6/b-group1.jpg"><i class="far fa-images"></i></a>
+<a data-fancybox="gallery" href="images/page6/b-group2.jpg"></a>
+<a data-fancybox="gallery" href="images/page6/b-group3.jpg"></a>
+<a data-fancybox="gallery" href="images/page6/b-group4.jpg"></a>
+<a data-fancybox="gallery" href="images/page6/b-group5.jpg"></a>
+<a data-fancybox="gallery" href="images/page6/b-group6.jpg"></a>
+</div>
+
+<div>
+<a data-fancybox="gallery" class="group-link" href="images/page6/b-group1.jpg" >More Photos</a> 
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="highlight parallax-window" data-parallax="scroll"  data-image-src="images/page6/black-gold-pattern.jpg">
+<div class="container">
+
+<div class="hightlight-title">
+<h1>Tour Highlights</h1>
+</div>
+
+<ul class="hightlight-list">
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+<li><span class="info-icon">&#10003;</span> All the Lorem Ipsum generators</li>
+</ul>
+
+<ul class="hightlight-list">
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+<li><span class="info-icon">&#10003;</span> The standard chunk of Lorem Ipsum</li>
+</ul>
+
+
+
+</div>
+</section>
+
+
+<section class="tour">
+<div class="container">
+
+<div class="tour-heading">
+<h1>Tour Itinerary</h1>
+</div>
+
+<div class="responsive" >
+  <div class="tour-item">
+	
+		<div class="tour-image">
+		<img src="images/page6/thai1.jpg" />
+		</div>
+		
+		<div class="tour-content">
+		<h1>Lorem Ipsum</h1>
+		<p>Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+		</div>
+  
+  </div>
+  
+   <div class="tour-item">
+	
+		<div class="tour-image">
+		<img src="images/page6/thai2.jpg" />
+		</div>
+		
+		<div class="tour-content">
+		<h1>Lorem Ipsum</h1>
+		<p>Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+		</div>
+  
+  </div>
+  
+   <div class="tour-item">
+	
+		<div class="tour-image">
+		<img src="images/page6/thai3.jpg" />
+		</div>
+		
+		<div class="tour-content">
+		<h1>Lorem Ipsum</h1>
+		<p>Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+		</div>
+  
+  </div>
+  
+    
+   <div class="tour-item">
+	
+		<div class="tour-image">
+		<img src="images/page6/thai4.jpg" />
+		</div>
+		
+		<div class="tour-content">
+		<h1>Lorem Ipsum</h1>
+		<p>Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+		</div>
+  
+  </div>
+  
+    
+   <div class="tour-item">
+	
+		<div class="tour-image">
+		<img src="images/page6/thai5.jpg" />
+		</div>
+		
+		<div class="tour-content">
+		<h1>Lorem Ipsum</h1>
+		<p>Its function as a filler or as a tool for comparing the visual impression of different typefaces Dummy text is text that is used in the publishing industry or by web designers to occupy the space which will later be filled with 'real' content. This is required when, for example, the final text is not yet available. Dummy text is also known as 'fill text'. It is said that song composers of the past used dummy texts as lyrics when writing melodies in order to have a 'ready-made' text to sing with the melody.</p>
+		</div>
+  
+  </div>
+  
+</div>
+
+
+<div class="facilities">
+<hr/>
+<div class="facilities-item">
+<h1>Tour length</h1>
+<p><i class="fas fa-cogs"></i> 2 - 3 weeks</p>
+</div>
+
+<hr/>
+<div class="facilities-item">
+<h1>Group Size</h1>
+<p><i class="fas fa-cogs"></i> 15 - 20</p>
+</div>
+
+<hr/>
+<div class="facilities-item">
+<h1>Language</h1>
+<p><i class="fas fa-cogs"></i> English</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section class="search-hotel">
+<div class="container">
+
+<div class="search-heading">
+<h2>You might also like</h2>
+</div>
+
+<div class="search-body">
+
+<div class="search-item">
+	<div class="search-image">
+		<a href="#" ><img src= "images/page2/1.jpg"/></a>
+		<span class="color1">United state</span>
+	</div>
+	<div class="search-content">
+		<div class="search-text">
+		<h3>Travel New York</h3>
+		<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+		</div>
+
+		<div class="search-footer">
+		
+			<div class="search-tour-item">
+				<h4>Duration</h4>
+				<p>3 days</p>
+				<span class="price-tour">€70,00</span>
+			</div>
+				
+			<div class="search-tour-item">
+				<h4>Group size</h4>
+				<p>10 people</p>
+				<a href="#" class="book-btn" >Book Now</a>
+			</div>
+			
+		</div>	
+	</div>
+</div>
+
+
+<div class="search-item">
+	<div class="search-image">
+		<a href="#" ><img src= "images/page2/2.png"/></a>
+		<span class="color2">Combodia</span>
+	</div>
+	<div class="search-content">
+		<div class="search-text">
+		<h3>Travel Phnom Penh</h3>
+		<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+		</div>
+
+		<div class="search-footer">
+		
+			<div class="search-tour-item">
+				<h4>Duration</h4>
+				<p>3 days</p>
+				<span class="price-tour">€85,00</span>
+			</div>
+				
+			<div class="search-tour-item">
+				<h4>Group size</h4>
+				<p>10 people</p>
+				<a href="#" class="book-btn" >Book Now</a>
+			</div>
+			
+		</div>		
+	</div>
+</div>
+
+<div class="search-item">
+	<div class="search-image">
+		<a href="#" ><img src= "images/page2/4.jpg"/></a>
+		<span class="color3">Singapore</span>
+	</div>
+	<div class="search-content">
+		<div class="search-text">
+		<h3>Travel Hougang</h3>
+		<p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.</p>
+		</div>
+
+		<div class="search-footer">
+		
+			<div class="search-tour-item">
+				<h4>Duration</h4>
+				<p>3 days</p>
+				<span class="price-tour">€80,00</span>
+			</div>
+				
+			<div class="search-tour-item">
+				<h4>Group size</h4>
+				<p>10 people</p>
+				<a href="#" class="book-btn" >Book Now</a>
+			</div>
+			
+		</div>		
+	</div>
+</div>
+
+
+</div>
+
+<div class="s-btn">
+	<a href="index2.html" class="dash-btn" >View All</a>
+</div>
+
+</div>
+</section>
+
+<footer id="main-footer">
+<div class="st-footer-top" >
+<div class="container">
+
+<form autocomplete="off" onsubmit="submitfunction()">
+<i class="fas fa-paper-plane"></i>
+<label for="name">Hot Deals. Awesome Chat. Straight to Your Inbox</label>
+
+<div class="footer-form-group">
+<input type="text" id="name" placeholder="Your Name" class="input-form" />
+<input type="email" placeholder="Your Email" class="input-form" oninvalid="invalidfunction()" required />
+</div>
+
+<input type="submit" value="Sign Me Up" class="input-btn"/>
+</form>
+
+</div>
+</div>
+
+<div class="st-footer-bottom">
+<div class="container">
+
+<div class="footer-multi-language">
+
+<div class="social-heading">
+<h1>Travel</h1>
+</div>
+
+<form>
+<label>Currencies</label>
+<div class="footer-select">
+<i class="fas fa-chevron-down"></i>
+<select>
+<option value="usd" >USD</option>
+<option value="eur" selected="selected" >EUR</option>
+<option value="aud">AUD</option>
+<option value="rup">RUP</option></select>
+</div>
+</form>
+
+<div class="social-footer">
+<p><i class="fab fa-facebook-f"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-pinterest-p"></i>
+<i class="fab fa-twitter"></i>
+</div>
+
+</div>
+
+<div class="footer-multi-language">
+
+<div class="menu-heading">
+<h1>Tour</h1>
+</div>
+
+<ul class="footer-menu">
+<li><a href="nyork.html" >California</a></li>
+<li><a href="viet.html" >Vietnam</a></li>
+<li><a href="nyork.html" >New York</a></li>
+<li><a href="viet.html" >Los Angelle</a></li>
+<li><a href="thai.html" >Thialand</a></li>
+</ul>
+
+</div>
+
+<div class="footer-multi-language">
+
+<div class="menu-heading">
+<h1>Support</h1>
+</div>
+
+<ul class="footer-menu">
+<li><a href="#" >Account</a></li>
+<li><a href="#" >Legal</a></li>
+<li><a href="index5.html" >Contact</a></li>
+<li><a href="#" >Affiliate program </a></li>
+<li><a href="#" >Privacy policy</a></li>
+</ul>
+
+</div>
+
+<div class="footer-multi-language">
+
+<div class="menu-heading">
+<h1>Useful Pages</h1>
+</div>
+
+<ul class="footer-menu">
+<li><a href="#" >Deals</a></li>
+<li><a href="index4.html" >FAQs</a></li>
+<li><a href="#" >Why Choose us</a></li>
+<li><a href="#" >Affiliate Program</a></li>
+</ul>
+
+</div>
+
+<div class="footer-address">
+<p>Business Number: <a href="tel:12 43223356" >+ 12 43223356</a> <br> 
+35/4,street,New Delhi,India<br/>
+Complaints/Enquiries: (Email) travel@12300.com</p>
+</div>
+
+<div class="footer-address">
+<p>© 2020 Solo <span>– Shinetheme</span></p>
+</div>
+
+</div>
+</div>
+
+</footer>
+
+<div class="navigation">
+	<div class="toggle"></div>
+	<ul>
+		<li><a href="index.html" ><i class="fas fa-home"></i> Home</a></li>
+		<li><a href="about.html"><i class="far fa-address-card"></i> About</a></li>
+		<li><a href="index2.html" ><i class="fas fa-dumbbell"></i> Listing</a></li>
+		<li><a href="index3.html" ><i class="far fa-images"></i> Blog</a></li>
+		<li><a href="index5.html" ><i class="far fa-address-book"></i> Contact Us</a></li>
+	</ul>
+</div>
+
+<a href="#top" class="scroll-top">
+
+<span class="scroll-toll-tip">Top</span>
+<i class="fas fa-chevron-up" ></i>
+
+</a>
+
+<script src="js/jquery.js"></script>
+<script src="js/jquery-ui.js"></script>
+<script src="js/jquery.fancybox.min.js" ></script>
+<script src="js/parallax.js" ></script>
+<script src="js/slick.min.js"></script>
+
+<script>
+
+$(document).ready(function(){
+	
+	const navigation = document.querySelector('.navigation');
+	
+	document.querySelector('.toggle').ondblclick = function(){
+		this.classList.toggle('active');
+		navigation.classList.toggle('active');
+	};
+	
+	$( function() {
+		$( ".navigation" ).draggable();
+	});
+	
+	$(window).on('load',function(){
+		$('.loader').fadeOut(1000);	
+	});
+	
+	$('.login,.header-right-user .fa-user').click(function(){
+	
+		$('#login').toggleClass('show');
+		$('.black').fadeToggle('slow');		
+	});
+	
+	$('.signup').click(function(){
+	
+		$('#signup').toggleClass('show');
+		$('.black').fadeToggle('slow');		
+	});
+
+	$('.title .fa-times').click(function(){
+		$('#login,#signup').removeClass('show');
+		$('.black').fadeOut('slow');
+	});	
+	
+	$('.header-left-bar .fa-bars').click(function(){
+			$('.header-left').toggleClass('come');
+	});
+		
+	$('.header-left .fa-times').click(function(){
+			$('.header-left').removeClass('come');
+	});	
+	
+	$('nav div > ul > li').click(function(){
+		$(this).children('.sub-menu').fadeToggle();
+		$(this).siblings('li').children('.sub-menu').slideUp();
+	});
+	
+	$('nav div > ul > li  a').click(function(){
+		$(this).children('.fa-chevron-down').toggleClass('round');
+		$(this).parent().siblings().children('a').children('.fa-chevron-down').removeClass('round');
+	});
+	
+	$("form > div > div ").dblclick(function(){
+
+		$(this).children('.dropdown-menu').slideToggle();
+		$(this).siblings().children('.dropdown-menu').slideUp();
+
+	});
+
+	$(window).click(function(){
+		$('.dropdown-menu').slideUp();
+	});
+	
+	$('.parallax-window').parallax({imageSrc: 'images/page6/—Pngtree—black gold pattern background_634890.jpg'});
+	
+
+
+$('.responsive').slick({
+  dots: true,
+  infinite: true,
+  speed: 500,
+  arrows:true,
+  autoplay:true,
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1
+      }
+    }
+	  ]
+	});
+	
+	$(window).scroll(function(){
+
+		if($(window).scrollTop() > 500){
+
+			$('.scroll-top').addClass('scroll-come');
+
+		}
+
+		else{
+			$('.scroll-top').removeClass('scroll-come');
+		}
+
+	});
+	
+	
+});
+
+function submitfunction(){
+		var a  = document.getElementById('name').value;
+		alert('Thank you ' + a);
+	}	
+
+function invalidfunction(){
+	alert("Please fill email Id");
+}
+
+</script>
+
+</body>
+</html>

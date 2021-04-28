@@ -1,0 +1,77 @@
+*{margin:0;
+	box-sizing:border-box;}
+
+html{scroll-behavior:smooth;}
+
+.scroll-top{background-color:rgba(43, 52, 69, 0.25);
+			width:50px;
+			height:50px;
+			position: fixed;
+			bottom:20px;
+			right:-12%;
+			border-radius: 50%;
+			transition: all .8s ease;
+			cursor: pointer;
+			z-index:4;}
+
+.fa-chevron-up{color: white;
+				font-size:21px;
+				position: absolute;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%,-50%);}
+
+.scroll-toll-tip{position: absolute;
+					top:50%;
+					right: 120%;
+					transform: translateY(-50%);
+					visibility: hidden;
+					opacity: 0;
+					color: rgb(125, 135, 156);
+					font-size: 0.875rem;
+					transition: opacity 0.25s ease-in-out 0s, visibility 0.25s ease-in-out 0s;}
+
+.scroll-top:hover .scroll-toll-tip{visibility:visible;
+									opacity:1;}
+
+.scroll-come{right:20px;}	
+
+@media (min-width:992px) and (max-width:1199px) {
+
+	.scroll-top {width: 48px;
+					height: 48px;}
+
+}
+
+@media (min-width:767px) and (max-width:991px) {
+
+	.scroll-top {width: 45px;
+					height: 45px;}
+	
+	.fa-chevron-up {font-size: 20px;}
+
+}
+
+@media (min-width:567px) and (max-width:766px) {
+
+	.scroll-top {width: 40px;
+					height: 40px;}
+
+
+}
+
+@media (min-width:480px) and (max-width:566px) {
+
+	.scroll-top {width: 35px;
+					height: 35px;}
+}
+
+@media (max-width:479px) {
+
+	.scroll-top {width:30px;
+					height:30px;}
+	
+	.fa-chevron-up {font-size:19px;}	
+
+}
+
